@@ -30,7 +30,7 @@ img {
 
 .img-logo {
     width: 40vw;
-    height: 6vh;
+    height: 8vh;
     padding: .8rem;
     display: block;
     margin: auto;
@@ -45,8 +45,91 @@ img {
 }
 
 .c1 {
-    background-color: aqua;
     height: 30vh;
     width: 100vw;
     position: relative;
+}
+
+.img-logo-cover {
+    display: block;
+    margin: auto;
+    width: 70vw;
+    margin-top: 5rem;
+}
+
+.logo-cover {
+    border: solid .8rem;
+    border-radius: .8rem;
+    border-color: beige;
+}
+
+@media (min-width:450px) {
+    /* .c1 {
+        width: 25%;
+        order: 1;
+    }
+    .c2 {
+        width: 75%;
+        order: 2;
+    }
+    .c3 {
+        width: 100%;
+        order: 3;
+    }
+    .c4 {
+        width: 100%;
+        order: 4;
+    }
+    .c5 {
+        width: 100%;
+        order: 5;
+    } */
+    .text-1 {
+        font-size: 2rem;
+    }
+    .img-logo {
+        width: 50vw;
+        height: 10vh;
+    }
+    .img-logo-cover {
+        margin-top: 8rem;
+    }
+}
+
+@media (min-width: 800px) {
+    .c1 {
+        width: 30%;
+    }
+    .c2 {
+        width: 40%;
+    }
+    .c3 {
+        width: 30%;
+    }
+    .c4 {
+        width: 50%;
+    }
+    .c5 {
+        width: 50%;
+    }
+    .aling-logo {
+        width: 50vw;
+    }
+    .text-1 {
+        width: 50vw;
+    }
+    .img-logo-cover {
+        width: 50vw;
+        order: 2;
+        margin-top: 2rem;
+    }
+    .cont-logo {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .logo-cover {
+        width: 40vw;
+        display: flex;
+        margin: auto;
+    }
 }
