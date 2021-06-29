@@ -69,7 +69,7 @@ img {
 }
 
 .logo-cover {
-    border: solid .8rem;
+    border: solid 1.4rem;
     border-radius: .8rem;
     border-color: beige;
 }
@@ -77,6 +77,32 @@ img {
 .btn-1 {
     text-align: center;
     margin-top: 4rem;
+}
+
+.img-inicio {
+    height: 70vh;
+}
+
+.emoji {
+    height: 7vh;
+    width: 7vw;
+    display: flex;
+    margin: auto;
+}
+
+.text-cont-curso {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text-1-cont-curso {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.text-2-cont-curso {
+    text-align: center;
+    font-size: 3rem;
 }
 
 @media (min-width:450px) {
@@ -96,6 +122,12 @@ img {
     }
     .btn-1 {
         margin-top: 8rem;
+    }
+    .logo-cover {
+        height: 27vh;
+        width: 50vw;
+        display: flex;
+        margin: auto;
     }
 }
 
@@ -117,6 +149,7 @@ img {
     }
     .logo-cover {
         width: 40vw;
+        height: 40vh;
         display: flex;
         margin: auto;
     }
@@ -131,8 +164,15 @@ img {
     }
     .btn-inicio {
         height: 5rem;
+        margin-top: 6.4rem;
     }
     .btn-inicio a {
         font-size: 2rem;
+    }
+    .text-cont-curso {
+        font-size: 4rem;
+    }
+    .text-1-cont-curso {
+        font-size: 4rem;
     }
 }
