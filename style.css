@@ -60,13 +60,13 @@
                 width: 100vw;
                 position: relative;
                 text-align: center;
+                font-size: 2rem;
             }
             
             .c2 {
                 min-height: 30vh;
                 width: 90vw;
                 position: relative;
-                /* display: flex; */
                 margin: auto;
             }
             
@@ -75,6 +75,47 @@
                 width: 100vw;
                 position: relative;
                 text-align: center;
+                font-size: 2rem;
+            }
+            
+            .c4 {
+                margin: auto;
+            }
+            
+            .c5 {
+                min-height: 30vh;
+                width: 100vw;
+                position: relative;
+                text-align: center;
+                font-size: 2rem;
+            }
+            
+            .c6 {
+                margin: auto;
+            }
+            
+            .c7 {
+                min-height: 30vh;
+                width: 100vw;
+                position: relative;
+                text-align: center;
+                font-size: 2rem;
+            }
+            
+            .c8 {
+                margin: auto;
+            }
+            
+            .c9 {
+                min-height: 30vh;
+                width: 100vw;
+                position: relative;
+                text-align: center;
+                font-size: 2rem;
+            }
+            
+            .c10 {
+                margin: auto;
             }
             
             .img-logo-cover {
@@ -161,12 +202,28 @@
                 font-size: 2rem;
             }
             
-            .text-mod-title {
+            .text-2-li-2 {
+                list-style: none;
                 font-size: 2rem;
             }
             
-            .text-1-mod-1 {
-                font-size: 2.5rem;
+            .text-3-li-3 {
+                list-style: none;
+                font-size: 2rem;
+            }
+            
+            .text-4-li-4 {
+                list-style: none;
+                font-size: 2rem;
+            }
+            
+            .text-5-li-5 {
+                list-style: none;
+                font-size: 2rem;
+            }
+            
+            .text-mod-title {
+                font-size: 2rem;
             }
             
             .disponible {
@@ -178,18 +235,21 @@
             
             .disponible h1 {
                 color: azure;
+                font-size: 2rem;
+            }
+            
+            .disponible p {
+                font-size: 2rem;
             }
             
             @media(min-width:250px) {
-                .disponible p {
+                /* .disponible p {
                     font-size: 1rem;
                 }
                 .disponible h1 {
                     font-size: 1rem;
-                }
+                } */
             }
-            
-            @media(min-width: 300px) {}
             
             @media (min-width:450px) {
                 .text-1 {
@@ -266,16 +326,15 @@
                 .text-1-cont-curso {
                     font-size: 4rem;
                 }
-                .c1 {
-                    min-height: 30vh;
-                    width: 50vw;
-                    position: relative;
-                }
-                .modulo-1 {
+                .modulo {
                     width: 100vw;
                     display: flex;
                     flex-wrap: wrap;
                     flex-direction: row-reverse;
+                }
+                .c1 {
+                    width: 50vw;
+                    font-size: 2rem;
                 }
                 .c2 {
                     height: 55vh;
@@ -285,9 +344,31 @@
                 }
                 .c3 {
                     width: 50vw;
+                    font-size: 2rem;
                 }
-                .text-1-li-1 {
-                    font-size: 4rem;
+                .c4 {
+                    width: 50vw;
+                }
+                .c5 {
+                    width: 50vw;
+                    font-size: 2rem;
+                }
+                .c6 {
+                    width: 50vw;
+                }
+                .c7 {
+                    width: 50vw;
+                    font-size: 2rem;
+                }
+                .c8 {
+                    width: 50vw;
+                }
+                .c9 {
+                    width: 50vw;
+                    font-size: 2rem;
+                }
+                .c10 {
+                    width: 50vw;
                 }
                 .img-modulo-1 {
                     display: flex;
@@ -299,10 +380,67 @@
                 .disponible h1 {
                     font-size: 3rem;
                 }
-                .modulo-2 {
-                    width: 100vw;
-                    display: flex;
-                    flex-wrap: wrap;
-                    flex-direction: row-reverse;
+            }
+            
+            @media(min-width:1300px) {
+                .c1 {
+                    font-size: 8rem;
+                }
+                .text-1-li-1 {
+                    font-size: 6rem;
+                }
+                .c3 {
+                    font-size: 8rem;
+                }
+                .text-2-li-2 {
+                    font-size: 6rem;
+                }
+                .c5 {
+                    font-size: 8rem;
+                }
+                .text-3-li-3 {
+                    font-size: 6rem;
+                }
+                .c7 {
+                    font-size: 8rem;
+                }
+                .text-4-li-4 {
+                    font-size: 6rem;
+                }
+                .c5 {
+                    font-size: 8rem;
+                }
+                .text-5-li-5 {
+                    font-size: 6rem;
+                }
+                .disponible h1 {
+                    font-size: 8rem;
+                }
+                .disponible p {
+                    font-size: 5rem;
+                }
+                .text-cont-curso {
+                    font-size: 6rem;
+                }
+                .text-1-cont-curso {
+                    font-size: 5rem;
+                }
+                .text-2-cont-curso {
+                    font-size: 5rem;
+                }
+                .img-logo {
+                    width: 30vw;
+                    height: 10vh;
+                }
+                .text-1 {
+                    font-size: 6rem;
+                }
+                .btn-inicio {
+                    height: 14rem;
+                    width: 70rem;
+                    margin-top: 8rem;
+                }
+                .btn-inicio a {
+                    font-size: 4rem;
                 }
             }
