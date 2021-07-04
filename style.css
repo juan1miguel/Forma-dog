@@ -343,6 +343,34 @@ img {
     text-align: center;
 }
 
+.price {
+    text-align: center;
+    font-size: 2rem;
+    color: yellowgreen;
+}
+
+.img-fondo-final {
+    height: 59vh;
+}
+
+.text-garantia {
+    text-align: center;
+    font-size: 2rem;
+}
+
+.social {
+    border-radius: 6rem;
+}
+
+.container-card-1 {
+    background: rgb(2, 0, 36);
+    background: linear-gradient(180deg, rgba(2, 0, 36, 1) 0%, rgba(132, 146, 245, 1) 0%, rgba(0, 212, 255, 1) 100%);
+}
+
+.text-prueba {
+    color: #8000fc;
+}
+
 @media (min-width:450px) {
     .text-1 {
         font-size: 2rem;
@@ -390,13 +418,22 @@ img {
     }
     .img-fondo-final {
         width: 100vw;
-        height: 62vh;
+        height: 70vh;
+    }
+    .price {
+        font-size: 2.5rem;
     }
     .img-Cover-Curso {
         height: 30vh;
         width: 50vw;
         display: flex;
         margin: auto;
+    }
+    .img-garantia {
+        width: 37vw;
+        display: flex;
+        margin: auto;
+        height: 18vh;
     }
 }
 
@@ -442,10 +479,20 @@ img {
     }
     .img-fondo-final {
         width: 100vw;
-        height: 68vh;
+        height: 82vh;
     }
     .btn-1 {
         margin-top: 11rem;
+    }
+    .garantia {
+        display: flex;
+    }
+    .img-garantia {
+        width: 21vw;
+        display: flex;
+        margin: auto;
+        height: 14vh;
+        padding: 1rem;
     }
 }
 
@@ -454,7 +501,7 @@ img {
         font-size: 3rem;
     }
     .text-2 {
-        font-size: 6rem;
+        font-size: 3rem;
     }
     .btn-inicio {
         height: 8rem;
@@ -526,6 +573,12 @@ img {
         font-size: 3rem;
     }
     .card {
+        width: 100vw;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row-reverse;
+    }
+    .container-card-1 {
         width: 100vw;
         display: flex;
         flex-wrap: wrap;
@@ -626,7 +679,7 @@ img {
         height: 90vh;
     }
     .text-2 {
-        font-size: 6rem;
+        font-size: 4rem;
     }
     .btn-inicio-1 {
         width: 105rem;
@@ -637,7 +690,27 @@ img {
         width: 30vw;
     }
     .img-garantia {
-        width: 10%;
-        height: 10%;
+        width: 97%;
+        height: 83%;
+    }
+    .price {
+        font-size: 9rem;
+    }
+    .img-fondo-final {
+        width: 100vw;
+        height: 113vh;
+    }
+    .text-garantia {
+        font-size: 7rem;
+    }
+    .cont-garantia {
+        width: 30vw;
+        height: 41rem;
+    }
+    .cont-garantia-2 {
+        width: 70vw;
+    }
+    .garantia {
+        display: flex;
     }
 }
